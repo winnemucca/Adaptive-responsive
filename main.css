@@ -1,0 +1,158 @@
+body {
+	background-color: #34495e;
+	font-size: 14px;
+	/* Setting margin and padding to 0 removes all default margin and padding for every object on the page regardless of browser*/
+	margin: 0;
+	padding: 0;
+
+}
+
+/*header {
+	background: url('http://liberalarts.udmercy.edu/image-library/MP900341471.JPG');
+
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 400px;
+	width: 600px;
+	margin: 0 auto;
+	}*/
+
+header img {
+	margin: 0 auto;
+	display: block;
+	width: 100%;
+	height: 400px;
+}
+
+.container .column-info {
+	background-color: #ecf0f1;
+}
+.container {
+margin: 0 auto;
+width: 65%;
+background-color: #ecf0f1;
+
+}
+
+.top-navigation {
+	background-color: #95a5a6;
+	text-align: center;
+	padding: 10px 0;
+	width: 100%;
+}
+
+.top-navigation li {
+	display: inline;
+	list-style-type: none;
+	font-size: 20px;
+	font-weight: bold;
+	/*font: bold 16px/1.5 Arial, sans-serif, helvetica;*/
+	color: #f1c40f;
+	padding: 35px;
+
+}
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+}
+
+
+.column-info img {
+/*height: 200px;
+width: 200px;*/
+width: 75%;
+height: 100px;
+
+
+}
+
+.educateInfo  {
+/*overflow hidden allows container background to stay the same*/
+overflow: hidden;
+}
+
+.column-info {
+width: 20%;
+margin: 0;
+display: inline;
+
+/*last night i left off losing my background color with float left.  The color cannot be found in the container*/
+float: left;
+
+padding: 10px 20px;
+}
+
+footer {
+	background-color: #393C3D;
+	height: 100px;
+	color: #fff;
+	padding: 20px;
+}
+
+footer p {
+	display: inline;
+	padding: 5px 10px;
+}
+
+
+.icon_mail {
+	  color: white;
+	  border-top: 1.063em solid transparent;
+	  border-right: 1.25em solid white;
+	  border-bottom: -.5em solid white;
+	  border-left: 1.25em solid white;
+	  margin: 20px;
+	  
+
+/*	  data-icon="&#x2709;
+*/	  
+}
+
+/****************************************************************************************     media queries ***********************************************************/
+
+/*tablet*/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px ) {
+	.top-navigation li {
+		font-size: 1.8em;
+		display: block;
+		padding: 5px;
+	}
+	.column-info {
+		float: none;
+		width: inherit;
+		line-height: 1.5;
+		padding: 0 10px;
+	}
+
+}
+
+/*phone*/
+
+@media only screen and (min-width: 320px) and (max-width: 568px) {
+	.top-navigation li {
+		font-size: 1.8em;
+
+	}
+	.column-info {
+		float: none;
+		width: inherit;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
